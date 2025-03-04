@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>機器學習模型可視化</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <h1>機器學習模型動畫展示</h1>
+
+    <div class="buttons">
+        <button onclick="showBPNN()">BPNN（神經網路）</button>
+        <button onclick="showKNN()">KNN（K-最近鄰）</button>
+        <button onclick="showDT()">DT（決策樹）</button>
+    </div>
+
+    <svg id="visualization" width="800" height="500"></svg>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
